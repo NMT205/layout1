@@ -1,0 +1,50 @@
+.header{
+    color: green;
+    background-color: red;
+    height: 200px;
+}
+.left{
+    background-color: yellow;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+.right{
+    color: aquamarine;
+    background-color: green;
+    height: 300px;
+    width: 20%;
+    float: right;
+}
+.main{
+    color: blue;
+    background-color: orange;
+    height: 300px;
+    width: 60%;
+    float: left;
+}
+.footer{
+    color: greenyellow;
+    background-color:blue;
+    height: 200px;
+    clear: both;
+}
+.left div{
+    color: red;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
+.left div:hover{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+body{
+    margin:0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
